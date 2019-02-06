@@ -1,0 +1,16 @@
+lenguage: python
+python:
+  -"2.7"
+install:
+  - echo "Aqui se instalan las deoendencias"
+before_scrip:
+  - echo "Antes de ejecutar un script"
+
+script:
+  - echo "Pruebas unitarias de calculadora"
+  - date
+  - python Test*.py
+  - echo -"Finalizar"
+
+notifications:
+email: false
