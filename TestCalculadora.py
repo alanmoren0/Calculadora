@@ -1,4 +1,5 @@
-from unittest
+import unittest 
+from unittest import testCase
 from Calculadora import Calculadora
 
 class TestCalculadora(unitTest.TestCase):
